@@ -15,5 +15,5 @@ http://localhost:8080/app-portal/rest/unprotected/hi
 **MyNonRestController** is an example of the controller with the URL that doesn't start with */rest*
 
 ```
-http://localhost:8080/app-portal/my/buy
+http://localhost:8080/app-portal/my/bye
 ```
