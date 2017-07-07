@@ -18,8 +18,8 @@
                         ref="cuba_PortalAnonymousSessionHolder"/>
     </task:scheduled-tasks>
     <bean class="com.haulmont.cuba.portal.sys.remoting.PortalRemoteProxyBeanCreator">
-        <property name="clusterInvocationSupport"
-                  ref="cuba_clusterInvocationSupport"/>
+        <property name="serverSelector"
+                  ref="cuba_ServerSelector"/>
         <property name="remoteServices">
             <map>
                 <entry key="demo_GreetingService"
